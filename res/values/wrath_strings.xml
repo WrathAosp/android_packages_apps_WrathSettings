@@ -14,11 +14,19 @@
     <!-- App Title -->
     <string name="wrath_settings_title">RageHub</string>
 
+    <!-- Categories -->
+    <string name="notifications_panel_category">Notifications panel</string>
+    <string name="notifications_panel_category_summary">Customize your QS panel and notifications</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+    <string name="general_category">General</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
