@@ -434,4 +434,8 @@
     <string name="notification_headers_title">Show notification headers</string>
     <string  name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
 
+    <!-- QS edit icon -->
+    <string name="qs_edit_title">Edit Icon</string>
+    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
+
 </resources>

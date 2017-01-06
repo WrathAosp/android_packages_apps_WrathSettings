@@ -42,6 +42,12 @@
             android:summary="@string/brightness_icon_summary"
             android:defaultValue="true" />
 
+         <com.wrath.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_edit_toggle"
+            android:title="@string/qs_edit_title"
+            android:summary="@string/qs_edit_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
     
     <PreferenceCategory
