@@ -26,6 +26,9 @@
     <!-- Lockscreen UI -->
     <string name="lockscreen_ui_title">Lockscreen UI</string>
 
+    <!-- Notifcation Bar -->
+    <string name="status_bar_title">Status Bar</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
@@ -74,5 +77,9 @@
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Double-tap on status bar to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
 
 </resources>
