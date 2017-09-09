@@ -17,9 +17,14 @@
     <!-- Categories -->
     <string name="notifications_panel_category">Notifications panel</string>
     <string name="notifications_panel_category_summary">Customize your QS panel and notifications</string>
+    <string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category_summary">Customize your lockscreen</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
+
+    <!-- Lockscreen UI -->
+    <string name="lockscreen_ui_title">Lockscreen UI</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -27,6 +32,7 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="general_category">General</string>
+    <string name="gestures_category">Gestures</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -64,5 +70,9 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Double-tap on lockscreen to sleep</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 
 </resources>

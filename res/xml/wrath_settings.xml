@@ -24,4 +24,11 @@
     android:summary="@string/notifications_panel_category_summary"
     android:fragment="com.wrath.settings.categories.NotificationsPanel"/>
 
+<com.wrath.settings.preferences.CardviewPreference
+    android:key="lockscreen_category"
+    android:icon="@drawable/ic_lockscreen_category"
+    android:title="@string/lockscreen_category"
+    android:summary="@string/lockscreen_category_summary"
+    android:fragment="com.wrath.settings.categories.Lockscreen"/>
+
 </PreferenceScreen>
