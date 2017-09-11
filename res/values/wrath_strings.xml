@@ -21,6 +21,9 @@
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
     <string name="miscellaneous_category">Miscellaneous</string>
     <string name="miscellaneous_category_summary">Customize With Some Miscellaneous Settings</string>
+    <string name="navigation_category">Navigation</string>
+    <string name="navigation_category_summary">Customize your navigation bar</string>
+    <string name="hardware_keys_category">Hardware keys</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
@@ -37,6 +40,9 @@
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+
+    <!-- Navigation -->
+    <string name="navigationbar_settings_title">Navigation bar</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -108,5 +114,19 @@
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
     <string name="network_traffic_show_units">Show units</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units in the statusbar</string>
+
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Buttons backlight timeout</string>
+    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_1s">1 sec</string>
+    <string name="backlight_timeout_3s">3 sec</string>
+    <string name="backlight_timeout_5s">5 sec</string>
+    <string name="backlight_timeout_10s">10 sec</string>
+    <string name="backlight_timeout_15s">15 sec</string>
+    <string name="backlight_timeout_20s">20 sec</string>
+    <string name="backlight_timeout_30s">30 sec</string>
+
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Backlight</string>
 
 </resources>

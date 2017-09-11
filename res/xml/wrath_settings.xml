@@ -32,6 +32,13 @@
     android:fragment="com.wrath.settings.categories.Lockscreen"/>
 
 <com.wrath.settings.preferences.CardviewPreference
+    android:key="navigation_category"
+    android:icon="@drawable/ic_navigation_category"
+    android:title="@string/navigation_category"
+    android:summary="@string/navigation_category_summary"
+    android:fragment="com.wrath.settings.categories.Navigation"/>
+
+<com.wrath.settings.preferences.CardviewPreference
     android:key="miscellaneous_category"
     android:icon="@drawable/ic_miscellaneous_category"
     android:title="@string/miscellaneous_category"
