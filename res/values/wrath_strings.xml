@@ -19,6 +19,8 @@
     <string name="notifications_panel_category_summary">Customize your QS panel and notifications</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="miscellaneous_category">Miscellaneous</string>
+    <string name="miscellaneous_category_summary">Customize With Some Miscellaneous Settings</string>
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
@@ -28,6 +30,13 @@
 
     <!-- Notifcation Bar -->
     <string name="status_bar_title">Status Bar</string>
+
+    <!-- Gesture Settings -->
+    <string name="gesture_settings_title">Gestures</string>
+
+    <!--3-Finger screenshot-->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

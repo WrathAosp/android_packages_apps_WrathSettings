@@ -31,4 +31,11 @@
     android:summary="@string/lockscreen_category_summary"
     android:fragment="com.wrath.settings.categories.Lockscreen"/>
 
+<com.wrath.settings.preferences.CardviewPreference
+    android:key="miscellaneous_category"
+    android:icon="@drawable/ic_miscellaneous_category"
+    android:title="@string/miscellaneous_category"
+    android:summary="@string/miscellaneous_category_summary"
+    android:fragment="com.wrath.settings.categories.Miscellaneous"/>
+
 </PreferenceScreen>
