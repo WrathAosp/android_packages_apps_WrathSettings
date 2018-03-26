@@ -19,20 +19,28 @@ package com.wrath.settings.preferences;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SystemSettingSeekBarPreference extends SeekBarPreferenceCham {
+public class SystemSettingIntListPreference extends SystemSettingListPreference {
 
-    public SystemSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SystemSettingIntListPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingSeekBarPreference(Context context, AttributeSet attrs) {
+    public SystemSettingIntListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingSeekBarPreference(Context context) {
-        super(context, null);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+    public SystemSettingIntListPreference(Context context) {
+        super(context);
     }
+
+    @Override
+    protected boolean persistString(String value) {
+        return persistInt(Integer.parseInt(value));
+    }
+
+    @Override
+    protected String getPersistedString(String defaultReturnValue) {
+        return String.valueOf(getPersistedInt(Integer.parseInt(defaultReturnValue)));
+    }
+
 }
