@@ -30,6 +30,12 @@
         android:summary="@string/smart_pixels_summary"
         android:defaultValue="false" />
 
+    <com.wrath.settings.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="aggressive_battery"
         android:title="@string/aggressive_battery_title">
@@ -56,5 +62,7 @@
             android:dependency="aggressive_battery_saver" />
 
     </PreferenceCategory>
+
+
 
 </PreferenceScreen>
