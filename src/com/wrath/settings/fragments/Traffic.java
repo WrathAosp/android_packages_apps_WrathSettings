@@ -47,7 +47,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     private static final String NETWORK_TRAFFIC_CATEGORY = "network_traffic";
 
     private PreferenceCategory mNetworkTrafficCategory;
-    private DropDownPreference mNetTrafficMode;
+    private DropDownPreference mNetTrafficEnabled;
     private SwitchPreference mNetTrafficAutohide;
     private DropDownPreference mNetTrafficUnits;
     private SwitchPreference mNetTrafficShowUnits;
@@ -65,12 +65,12 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         if (!isNetworkTrafficAvailable()) {
             getPreferenceScreen().removePreference(mNetworkTrafficCategory);
         }else{
-            mNetTrafficMode = (DropDownPreference)
-                    findPreference(Settings.System.NETWORK_TRAFFIC_MODE);
-            mNetTrafficMode.setOnPreferenceChangeListener(this);
+            mNetTrafficEnabled = (DropDownPreference)
+                    findPreference(Settings.System.NETWORK_TRAFFIC_ENABLED);
+            mNetTrafficEnabled.setOnPreferenceChangeListener(this);
             int mode = Settings.System.getIntForUser(resolver,
-                    Settings.System.NETWORK_TRAFFIC_MODE, 0, UserHandle.USER_CURRENT);
-            mNetTrafficMode.setValue(String.valueOf(mode));
+                    Settings.System.NETWORK_TRAFFIC_ENABLED, 0, UserHandle.USER_CURRENT);
+            mNetTrafficEnabled.setValue(String.valueOf(mode));
 
             mNetTrafficAutohide = (SwitchPreference)
                     findPreference(Settings.System.NETWORK_TRAFFIC_AUTOHIDE);
@@ -112,10 +112,10 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mNetTrafficMode) {
+        if (preference == mNetTrafficEnabled) {
             int mode = Integer.valueOf((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_MODE, mode);
+                    Settings.System.NETWORK_TRAFFIC_ENABLED, mode);
             updateNetworkTrafficEnabledStates(mode);
         } else if (preference == mNetTrafficUnits) {
             int units = Integer.valueOf((String) newValue);
