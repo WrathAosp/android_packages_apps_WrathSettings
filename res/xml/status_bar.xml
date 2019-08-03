@@ -16,6 +16,11 @@
     android:title="@string/status_bar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="traffic"
+        android:title="@string/traffic_title"
+        android:fragment="com.wrath.settings.fragments.Traffic" />
+
      <com.wrath.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
