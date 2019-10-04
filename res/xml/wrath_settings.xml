@@ -57,4 +57,12 @@
     android:summary="@string/miscellaneous_category_summary"
     android:fragment="com.wrath.settings.categories.Miscellaneous"/>
 
+<!-- Notification -->
+<com.wrath.settings.preferences.CardviewPreference
+    android:key="notification_category"
+    android:icon="@drawable/ic_notification"
+    android:title="@string/notification_category"
+    android:summary="@string/notification_category_summary"
+    android:fragment="com.wrath.settings.fragments.Notification"/>
+
 </PreferenceScreen>
