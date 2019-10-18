@@ -239,4 +239,10 @@
     <string name="less_boring_heads_up_title">Less boring heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
 
+    <!-- Volume rocker music control -->
+    <string name="volume_title">Volume Rockers</string>
+    <string name="volume_summary">Customize settings for volume buttons</string>
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+
 </resources>
