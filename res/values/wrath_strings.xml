@@ -380,4 +380,10 @@
     <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string>
     <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call Vibration</string>
+    <string name="incall_vibrate_connect_title">Vibrate on Connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on Call Waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on Disconnect</string>
+
 </resources>
