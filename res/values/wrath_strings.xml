@@ -344,4 +344,9 @@
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_category">Music</string>
+    <string name="media_art_title">Media artwork</string>
+    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+
 </resources>
