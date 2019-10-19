@@ -51,6 +51,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="ls_unlocking"
+        android:title="@string/ls_unlocking">
+
+        <com.wrath.settings.preferences.SystemSettingSwitchPreference
+            android:key="fp_unlock_keystore"
+            android:title="@string/fp_unlock_keystore_title"
+            android:summary="@string/fp_unlock_keystore_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_gestures_category"
         android:title="@string/gestures_category">
 

@@ -352,4 +352,9 @@
     <!-- Lock screen media blur -->
     <string name="lockscreen_media_blur_title">Media artwork blur level</string>
 
+    <!-- Fingerprint unlock -->
+    <string name="ls_unlocking">Unlocking</string>
+    <string name="fp_unlock_keystore_title">Force FP authentication</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
+
 </resources>
