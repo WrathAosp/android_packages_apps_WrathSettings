@@ -415,4 +415,6 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
+    <!-- AOSP Gestures -->
+    <string name="gesture_preference_wrath">AOSP gestures</string>
 </resources>
