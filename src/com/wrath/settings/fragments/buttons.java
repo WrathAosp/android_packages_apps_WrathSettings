@@ -52,7 +52,7 @@ import com.wrath.settings.preferences.SystemSettingSwitchPreference;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
-public class NavbarSettings extends ActionFragment implements Preference.OnPreferenceChangeListener {
+public class buttons extends ActionFragment implements Preference.OnPreferenceChangeListener {
 
     //Keys
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
@@ -89,7 +89,7 @@ public class NavbarSettings extends ActionFragment implements Preference.OnPrefe
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.navbar_settings);
+        addPreferencesFromResource(R.xml.buttons);
 
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();

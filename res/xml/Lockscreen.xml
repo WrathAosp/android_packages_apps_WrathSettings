@@ -14,10 +14,10 @@
 <PreferenceScreen 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/lockscreen_ui_title">
+    android:title="@string/lockscreen">
 
     <PreferenceCategory
-        android:key="lockscreen_ui_gestures_category"
+        android:key="lockscreen_gestures_category"
         android:title="@string/gestures_category">
 
     <com.wrath.settings.preferences.SystemSettingSwitchPreference

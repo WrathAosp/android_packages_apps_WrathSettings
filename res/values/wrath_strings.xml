@@ -15,23 +15,21 @@
     <string name="wrath_settings_title">RageHub</string>
 
     <!-- Categories -->
-    <string name="notifications_panel_category">Notifications panel</string>
-    <string name="notifications_panel_category_summary">Customize your QS panel and notifications</string>
-    <string name="lockscreen_category">Lockscreen</string>
-    <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="status_bar">Status Bar</string>
+    <string name="status_bar_summary">Customize your Status Bar Icons"</string>
+
+    <string name="buttons">Buttons</string>
+    <string name="buttons_summary">Customize your Hardware Keys"</string>
+
+    <string name="quick_settings">Quick Settings</string>
+    <string name="quick_settings_summary">Customize your Quick Settings</string>
+
+    <string name="lockscreen">Lockscreen</string>
+    <string name="lockscreen_summary">Customize your lockscreen</string>
+
     <string name="miscellaneous_category">Miscellaneous</string>
     <string name="miscellaneous_category_summary">Customize With Some Miscellaneous Settings</string>
-    <string name="navigation_category">Navigation</string>
-    <string name="navigation_category_summary">Customize your navigation bar</string>
 
-    <!-- Quick Settings -->
-    <string name="quick_settings_title">Quick Settings</string>
-
-    <!-- Lockscreen UI -->
-    <string name="lockscreen_ui_title">Lockscreen UI</string>
-
-    <!-- Notifcation Bar -->
-    <string name="status_bar_title">Status Bar</string>
 
     <!-- Gesture Settings -->
     <string name="gesture_settings_title">Gestures</string>
@@ -39,9 +37,6 @@
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
-
-    <!-- Navigation -->
-    <string name="navigationbar_settings_title">Navigation bar</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
