@@ -25,6 +25,14 @@
     android:summary="@string/buttons_summary"
     android:fragment="com.wrath.settings.fragments.buttons"/>
 
+<!-- Gesture -->
+<com.wrath.settings.preferences.CardviewPreference
+    android:key="gesture_settings"
+    android:icon="@drawable/ic_gesture_settings"
+    android:title="@string/gesture_settings_title"
+    android:summary="@string/gesture_settings_title_summary"
+    android:fragment="com.wrath.settings.fragments.GestureSettings"/>
+
 <!-- Status Bar -->
 <com.wrath.settings.preferences.CardviewPreference
     android:key="status_bar"
@@ -55,7 +63,7 @@
     android:icon="@drawable/ic_miscellaneous_category"
     android:title="@string/miscellaneous_category"
     android:summary="@string/miscellaneous_category_summary"
-    android:fragment="com.wrath.settings.categories.Miscellaneous"/>
+    android:fragment="com.wrath.settings.fragments.Miscellaneous"/>
 
 <!-- Notification -->
 <com.wrath.settings.preferences.CardviewPreference
