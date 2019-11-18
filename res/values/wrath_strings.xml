@@ -256,4 +256,9 @@
     <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
 
+    <!-- Pulse ambient display on music change -->
+    <string name="lockscreen_ambient_display_category">Ambient Display</string>
+    <string name="pulse_on_new_tracks_title">Pulse ambient display on new song</string>
+    <string name="pulse_on_new_tracks_summary">When a new song is playing, wake up the screen to display the new info</string>
+
 </resources>
