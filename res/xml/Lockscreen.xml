@@ -75,6 +75,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="fod_icon_picker_category"
+        android:title="@string/fod_icon_picker_category_title" >
+
+        <!-- FOD icon picker -->
+        <Preference
+            android:key="fod_icon_picker"
+            android:title="@string/fod_icon_picker_title"
+            android:summary="@string/fod_icon_picker_summary"
+            android:fragment="com.wrath.settings.fragments.FODIconPickerFragment" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_gestures_category"
         android:title="@string/gestures_category">
 

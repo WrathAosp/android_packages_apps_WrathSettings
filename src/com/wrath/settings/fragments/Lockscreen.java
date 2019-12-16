@@ -48,6 +48,10 @@ import com.android.settings.Utils;
 
 public class Lockscreen extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
+
+    private Preference mFODIconPickerCategory;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +61,13 @@ public class Lockscreen extends SettingsPreferenceFragment implements OnPreferen
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
+        Context mContext = getContext();
+        boolean hasFod = mContext.getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView);
+
+        mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPickerCategory != null && !hasFod) {
+            prefSet.removePreference(mFODIconPickerCategory);
+        }
     }
 
     @Override
