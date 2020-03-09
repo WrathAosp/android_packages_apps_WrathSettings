@@ -500,4 +500,8 @@
     <string name="corner_fwvals_title">Use framework values</string>
     <string name="corner_fwvals_summary">Use the default values for your device</string>
 
+    <!-- QS tile Tint -->
+    <string name="qs_bg_use_new_tint">QS Tile Tint</string>
+    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
+
 </resources>
