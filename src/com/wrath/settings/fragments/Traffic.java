@@ -41,8 +41,8 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.wrath.settings.CustomSeekBarPreference;
-import com.wrath.settings.CustomSettingsPreferenceFragment;
+import com.wrath.settings.preferences.CustomSeekBarPreference;
+import com.wrath.settings.preferences.CustomSettingsPreferenceFragment;
 import com.android.settings.Utils;
 import android.util.Log;
 

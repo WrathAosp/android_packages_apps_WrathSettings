@@ -21,7 +21,7 @@
         android:title="@string/network_traffic_state_title"
         android:defaultValue="false" />
 
-    <com.wrath.settings.CustomSeekBarPreference
+    <com.wrath.settings.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
         android:max="10"
