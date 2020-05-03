@@ -180,15 +180,16 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="volume_rocker"
+    <PreferenceCategory 
+	android:key="volume_rocker"
         android:title="@string/volume_title">
 
-        <Preference
-            android:key="volume_key"
-            android:fragment="com.wrath.settings.fragments.Volume"
+        <Preference 
+	    android:key="volume_key" 
+     	    android:fragment="com.wrath.settings.fragments.Volume" 
             android:title="@string/volume_title"
             android:summary="@string/volume_summary" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
