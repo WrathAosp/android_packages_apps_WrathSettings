@@ -397,8 +397,14 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
-    <!-- AOSP Gestures -->
-    <string name="gesture_preference_wrath">AOSP gestures</string>
+    <!-- Gestures -->
+    <string name="gesture_preference_wrath">Wrath gestures</string>
+    <string name="gesture_preference_aosp">AOSP gestures</string>
+    <string name="gesture_double_tap_power_input_summary">Press power button twice</string>
+    <string name="gesture_system_navigation_input_summary">Gesture navigation</string>
+    <string name="gesture_prevent_ringing_screen_summary">Press volume + power button</string>
+    <string name="gesture_adaptive_playback_summary">control media playback</string>
+    <string name="volume_button_music_control_sumary">Skip music tracks using volume button</string>
 
     <!-- Old mobile icon -->
     <string name="use_old_mobiletype_title">Use old mobile type style</string>
