@@ -17,25 +17,4 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/wrath_settings_title" >
 
-        <!-- Buttons -->
-        <Preference
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
-            android:fragment="com.wrath.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
-
-        <!-- Navigation Bar -->
-        <Preference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title" 
-            android:fragment="com.wrath.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
-
-        <!-- Power Menu -->
-        <Preference
-            android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
-            android:fragment="com.wrath.settings.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
-
 </PreferenceScreen>
