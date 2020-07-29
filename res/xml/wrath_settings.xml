@@ -66,4 +66,11 @@
     android:title="@string/miscellaneous_category"
     android:fragment="com.wrath.settings.fragments.Miscellaneous"/>
 
+<!-- About -->
+<com.wrath.settings.preferences.CardviewPreference
+    android:key="about_category"
+    android:icon="@drawable/ic_about"
+    android:title="@string/about_category"
+    android:fragment="com.wrath.settings.fragments.About"/>
+
 </PreferenceScreen>

@@ -17,6 +17,9 @@
     <string name="wrath_settings_title">RageHub</string>
 
     <!-- Categories -->
+
+    <string name="about_category">About</string>
+
     <string name="status_bar">Status Bar</string>
 
     <string name="buttons">Buttons</string>
@@ -30,6 +33,10 @@
     <string name="notification_category">Notification</string>
 
     <string name="gesture_settings_title">Gestures</string>
+
+    <!-- About -->
+    <string name="wrath_about_info">About Project</string>
+    <string name="wrath_about_info_summary">Presenting WrathOS, another custom rom based on pure AOSP, improving battery and stablity with needy customizations.</string>
 
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Three finger gesture</string>
