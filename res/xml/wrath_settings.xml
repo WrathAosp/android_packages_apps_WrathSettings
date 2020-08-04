@@ -22,7 +22,6 @@
     android:key="status_bar"
     android:icon="@drawable/ic_status_bar"
     android:title="@string/status_bar"
-    android:summary="@string/status_bar_summary"
     android:fragment="com.wrath.settings.fragments.StatusBar"/>
 
 <!-- Quick Settings panel -->
@@ -30,7 +29,6 @@
     android:key="quick_settings"
     android:icon="@drawable/ic_quick_settings"
     android:title="@string/quick_settings"
-    android:summary="@string/quick_settings_summary"
     android:fragment="com.wrath.settings.fragments.QuickSettings"/>
 
 <!-- Notification -->
@@ -38,7 +36,6 @@
     android:key="notification_category"
     android:icon="@drawable/ic_notification"
     android:title="@string/notification_category"
-    android:summary="@string/notification_category_summary"
     android:fragment="com.wrath.settings.fragments.Notification"/>
 
 <!-- Buttons -->
@@ -46,7 +43,6 @@
     android:key="lockscreen_category"
     android:icon="@drawable/ic_buttons"
     android:title="@string/buttons"
-    android:summary="@string/buttons_summary"
     android:fragment="com.wrath.settings.fragments.buttons"/>
 
 <!-- Lock Screen -->
@@ -54,7 +50,6 @@
     android:key="lockscreen_category"
     android:icon="@drawable/ic_lockscreen"
     android:title="@string/lockscreen"
-    android:summary="@string/lockscreen_summary"
     android:fragment="com.wrath.settings.fragments.Lockscreen"/>
 
 <!-- Gesture -->
@@ -62,7 +57,6 @@
     android:key="gesture_settings"
     android:icon="@drawable/ic_gesture_settings"
     android:title="@string/gesture_settings_title"
-    android:summary="@string/gesture_settings_title_summary"
     android:fragment="com.wrath.settings.fragments.GestureSettings"/>
 
 <!-- Miscellaneous -->
@@ -70,7 +64,6 @@
     android:key="miscellaneous_category"
     android:icon="@drawable/ic_miscellaneous_category"
     android:title="@string/miscellaneous_category"
-    android:summary="@string/miscellaneous_category_summary"
     android:fragment="com.wrath.settings.fragments.Miscellaneous"/>
 
 </PreferenceScreen>
