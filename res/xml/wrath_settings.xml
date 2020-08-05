@@ -17,6 +17,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/wrath_settings_title" >
 
+<!-- Theme Room -->
+<com.wrath.settings.preferences.CardviewPreference
+android:key="theme_room"
+android:title="@string/themeroom_title"
+android:fragment="com.android.settings.wrath.WrathThemeRoom"
+android:icon="@drawable/ic_wrath_themeroom"
+settings:allowDividerAbove="false" />
+
 <!-- Status Bar -->
 <com.wrath.settings.preferences.CardviewPreference
     android:key="status_bar"
