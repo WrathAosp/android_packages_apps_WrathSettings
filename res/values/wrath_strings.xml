@@ -510,4 +510,10 @@
     <string name="qs_footer_text_string_title">Customize footer text</string>
     <string name="qs_footer_text_string_summary">Set to empty for default #FeelTheWrath</string>
  
+    <!-- Settings Dashboard conditions and suggestions -->
+    <string name="settings_show_conditions_title">Dashboard conditions</string>
+    <string name="settings_show_conditions_summary">Display condition cards in Settings screen</string>
+    <string name="settings_show_suggestions_title">Dashboard suggestions</string>
+    <string name="settings_show_suggestions_summary">Display suggestion cards in Settings screen</string>
+
 </resources>
