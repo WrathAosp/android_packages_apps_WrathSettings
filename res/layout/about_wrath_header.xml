@@ -18,7 +18,7 @@
  <ImageView
         android:layout_width="625dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_wrath_banner"
+        android:src="@drawable/ic_wrath_title"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
         android:layout_marginTop="10dp"
