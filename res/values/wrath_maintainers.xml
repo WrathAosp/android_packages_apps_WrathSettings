@@ -29,7 +29,7 @@
     <string name="device_beryllium">EvilVenøm</string>
     <string name="device_beryllium_description">Xiaomi Pocophone F1 (beryllium)</string>
 
-    <string name="device_mido">Himanshu Naamdev</string>
+    <string name="device_mido">Smokey</string>
     <string name="device_mido_description">Xiaomi Redmi Note 4 (mido)</string>
 
     <string name="device_lavender">Alien</string>
@@ -37,4 +37,10 @@
 
     <string name="device_rmx1971">Luckyvii</string>
     <string name="device_rmx1971_description">Realme 5 Pro (rmx1971)</string>
+
+    <string name="device_violet">TheMarc43</string>
+    <string name="device_violet_description">Xiaomi Redmi Note 7 Pro</string>
+
+    <string name="device_ginkgo">TheWeaver786</string>
+    <string name="device_ginkgo_description">Xiaomi Redmi Note 8/8T</string>
 </resources>
