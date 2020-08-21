@@ -404,6 +404,7 @@
         <item>@string/fod_miui_aurora_recognizing_anim</item>
         <item>@string/fod_recog_animation_coloros7_1</item>
         <item>@string/fod_recog_animation_coloros7_2</item>
+        <item>@string/fod_miui_neon_recognizing_anim</item>
     </string-array>
 
     <string-array name="fod_recog_animation_values" translatable="false">
@@ -427,6 +428,7 @@
         <item>17</item>
         <item>18</item>
         <item>19</item>
+        <item>20</item>
     </string-array>
 
 </resources>

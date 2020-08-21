@@ -491,4 +491,6 @@
     <string name="fod_miui_aurora_recognizing_anim">Aurora</string>
     <string name="fod_recog_animation_coloros7_1">ColorOS7 1</string>
     <string name="fod_recog_animation_coloros7_2">ColorOS7 2</string>
+    <string name="fod_miui_neon_recognizing_anim">MIUI Neon</string>
+
 </resources>
